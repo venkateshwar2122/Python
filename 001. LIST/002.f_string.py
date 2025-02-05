@@ -43,3 +43,21 @@ f"{price:.2f}" only affects the display, not the actual data type.
 The original price variable is still an integer (int).
 
 ___________________________________________________________________________________________________________________________
+
+
+SIR'S CODE
+
+a = int(input("enter a value"))
+b = int(input("enter b value"))
+print("sum of",a,"and",b,"is",a+b)           # sum of 10 and 20 is 30
+print(f"diff of {a} and {b} is {a-b}")       # diff of 10 and 20 is -10
+print("prod of {},{} is {}".format(a,b,a*b))   # prod of 10,20 is 200
+print("float div of %d,%d is %f"%(a,b,a/b))    # float div of 10,20 is 0.500000
+print(f"floor div of {a},{b} is {a//b}")       # floor div of 10,20 is 0
+print(f"mod div of {a},{b} is {a%b}")          # mod div of 10,20 is 10
+print(f"{a} power {b} is {a**b}")              # 10 power 20 is 100000000000000000000
+
+
+____________________________________________________________________________________________________________
+
+X

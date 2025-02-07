@@ -10,6 +10,8 @@
     c. delete specif element
 
 3. update element at specif index
+
+4. delete all elements of the list
 _________________________________________________________
 
 1. Adding element into list
@@ -77,6 +79,14 @@ l[3]=35
 print(l)
 
 o/p:[40, 30, 10, 35, 88]
+
+_____________________________________
+
+4. delete all elements of the list
+
+l= [4,7,4,7,8,3,5]
+l.clear()         
+print(l)                    # []
 
 
     

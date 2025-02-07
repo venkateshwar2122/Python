@@ -13,3 +13,21 @@ for i in range(len(l)):
     break
 else:
   print(-1)
+
+'''
+i/P: 
+4 5 78 6
+3
+o/p:
+-1
+'''
+'''
+i/P: 
+4 5 78 6
+6
+o/p:
+3
+'''
+
+[ ]
+

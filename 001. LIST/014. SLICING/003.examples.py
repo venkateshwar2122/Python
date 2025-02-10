@@ -10,6 +10,10 @@ print(l[-3:-6:-1])                   # [2, 4, 3]                    IMP
 print(l[-4:2:-1])                    # [4, 3, 6, 9, 7]               IMP
 print(l[-4:2])                       # []                            IMP
 
+#Syntax of Slicing:
+
+sequence[start : stop-1 : step]
+
 
 # INDEXING IN ABOVE CODE
 

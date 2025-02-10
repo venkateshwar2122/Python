@@ -6,6 +6,9 @@ ___________________________________
 l=[10,20,30,40]
 index of above list : 0,1,2,3  OR  -4,-3,-2,-1
 
+l = [10,  20,  30,  40]
+      0    1    2    3        (Positive Index)
+     -4   -3   -2   -1        (Negative Index)
 ____________________________________
 #Syntax of Slicing:
 sequence[start:stop-1:step]

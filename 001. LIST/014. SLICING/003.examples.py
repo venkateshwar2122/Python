@@ -40,7 +40,7 @@ formulae: moves left to right unless -ve step is used
 here start=-3 and step=+1(default). 
 Since no -ve step is used therefore it will always move from left to right.
 means index -3 then index -2 then index -1
-but here stop=-6
+but here start=-3 and stop=-6
 therefore its impossible to move backward
 
 l = [5,  8,  2,  7,  9,  6,  3,  4,  2,  9,  1]
@@ -57,7 +57,7 @@ MY CONCLUSION:
 formulae: moves left to right unless -ve step is used
 here start=-3 , step=-1 
 since here -ve step is used therefore it can move backwards!!
-here stop =-6
+here start=-3 and stop =-6
 means index -3 then index -4 then index -5
 
 _______________________________________________
@@ -71,7 +71,7 @@ formulae:moves left to right unless -ve step is used
 here start=0(by default), step=+1(by default)
 since here no -ve step is used therefore it will always move left to right
 means start=0 to stop =-3
-means index0 to index -3
+
 
 l = [5,  8,  2,  7,  9,  6,  3,  4,  2,  9,  1]
       0                                             (Positive Index)
@@ -87,7 +87,7 @@ MY CONCLUSION:
 formulae: moves left to right unless -ve step is used
 here start = -4 and step=-1
 since here -ve step is used therefore it can move backwards!!
-here stop =2
+here start=-4 and stop =2
 means index -4 to  index 2
 
 l = [5,  8,  2,  7,  9,  6,  3,  4,  2,  9,  1]
@@ -104,7 +104,7 @@ formulae: moves left  to right unless -ve step is used
 here start=-4 and step=+1(by default)
 Since no -ve step is used therefore it will always move from left to right.
 
-but here stop=2
+but here start=-4 and stop=2
 therefore its impossible to move backward
 
 

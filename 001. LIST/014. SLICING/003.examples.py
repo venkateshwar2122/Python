@@ -43,6 +43,10 @@ means index -3 then index -2 then index -1
 but here stop=-6
 therefore its impossible to move backward
 
+l = [5,  8,  2,  7,  9,  6,  3,  4,  2,  9,  1]
+                                     -3              (Positive Index)
+                         -6                            (Negative Index)
+
 _______________________________________
 
 2.

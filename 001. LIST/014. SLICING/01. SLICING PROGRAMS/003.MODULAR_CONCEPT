@@ -1,0 +1,47 @@
+Here are a few modular arithmetic examples:
+
+1.   10 % 3
+10 ÷ 3 = 3 quotient, remainder 1
+So, 10 % 3 = 1
+
+2.  15 % 4
+15 ÷ 4 = 3 quotient, remainder 3
+So, 15 % 4 = 3
+
+3.  7 % 2
+7 ÷ 2 = 3 quotient, remainder 1
+So, 7 % 2 = 1
+
+4.20 % 6
+20 ÷ 6 = 3 quotient, remainder 2
+So, 20 % 6 = 2
+
+
+5.100 % 9
+100 ÷ 9 = 11 quotient, remainder 1
+So, 100 % 9 = 1
+__________________________________________________
+#WHEN DENOMINATOR IS LARGER:
+
+When the denominator (divisor) is larger than the numerator (dividend) in modulus operation, the
+remainder is always the numerator itself because division isn't possible.
+
+Examples:
+
+1.  2 % 5
+2 ÷ 5 → Quotient = 0, Remainder = 2
+Answer: 2 % 5 = 2
+
+2.  7 % 10
+7 ÷ 10 → Quotient = 0, Remainder = 7
+Answer: 7 % 10 = 7
+
+3.  15 % 20
+15 ÷ 20 → Quotient = 0, Remainder = 15
+Answer: 15 % 20 = 15
+
+Rule:
+If dividend < divisor, then:
+
+dividend  % divisor = dividend,             ALWAYS !!!
+

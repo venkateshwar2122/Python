@@ -3,8 +3,8 @@ Conditions for Matrix Multiplication
 For two matrices A and B to be multiplied:
 
 The number of columns in Matrix A must be equal to the number of rows in Matrix B.
-If A is of size (m × n) and B is of size (n × p), then:
-Resultant Matrix C will have the size (m × p).
+If A is of size (n × m) and B is of size (m × p), then:
+Resultant Matrix C will have the size (n × p).
 ____________________________________________________________________
 
 # Input size of the first matrix (n × m)
@@ -48,13 +48,23 @@ for row in C:
 o/p:
 Enter dimensions of first matrix (rows columns): 2 3
 Enter first matrix:
-1 2 3
-4 5 6
-Enter number of columns for second matrix: 3
+2 1 10
+3 9 4
+Enter number of columns for second matrix: 4
 Enter second matrix:
-9 6 7
-5 3 4
-2 4 3
+7 1 9 3
+1 3 7 6
+9 2 1 8
 Product of matrices:
-25 24 24
-73 63 66
+105 25 35 92
+66 38 94 95
+___________________________________________
+
+note in above code example:
+no  of rows, column of A = 2, 3
+no of rows ,column of B =3, 4
+therfore no of rows,columns of C=2,4
+
+now range of i is 0,1,2   ........since no of column of A is 3
+now range of j is 0,1,2  .........since no of row of B is 3
+now range of  k is 0,1,2,3 .......since no of column of B is 4

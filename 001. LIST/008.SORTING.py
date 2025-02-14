@@ -1,16 +1,19 @@
 #SORTING 
 
-1. sort()        ------> sort in first line and print in next line
+1. sort()        ------> sort in first line and print in next line , modifies the original list
     a. ascending sort
     b. descending sort
 
-2. sorted()      --------> sort and print in the same line
+2. sorted()      --------> sort and print in the same line , doesnot modifies the original list
     a. ascending sort
     b. descending sort
 
 ____________________
 
 1. sort()
+
+NOTE: sort() modifies the Original List
+
 a. ascending sort
 
 l=[5,8,7,2,3,8,3,4,1]
@@ -38,7 +41,9 @@ _______________________________________________________________
 
 2.SORTED
 
-----> sort and print in the same line
+----> sorted and print in the same line
+
+NOTE: sorted() Does Not Modify the Original List
 
 l=[5,8,7,2,3,8,3,4,1]
 print(sorted(l))                       # [1, 2, 3, 3, 4, 5, 7, 8, 8]

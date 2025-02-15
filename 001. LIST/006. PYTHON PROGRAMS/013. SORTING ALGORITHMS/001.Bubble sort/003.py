@@ -2,6 +2,9 @@
 1. Compare adjacent elements: If the left element is greater than the right, swap them.
 2. Continue comparing and swapping until the largest element moves to the end.
 
+  j and j+1 pointer se hum largest element ko catch kar rahe hai and uss largest element
+  ko last index tak le jaakar vahan rakh de rahe hai.
+
 ________________________________________________________________________________________
   
 l = list(map(int, input().split()))

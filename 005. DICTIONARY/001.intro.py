@@ -31,5 +31,7 @@ the first ('a': 1), so only the last value (3) is retained for key 'a'.
 
 Thus, if duplicate keys are provided, only the last inserted key-value pair is shown in the dictionary.
 
+6. 0(1) complexity because it uses hashing to store keys
+
 
                          

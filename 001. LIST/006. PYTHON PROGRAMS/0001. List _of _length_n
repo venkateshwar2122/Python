@@ -1,0 +1,8 @@
+LIST OF LENGTH 6
+
+my_list = [None] * 6
+
+
+or
+
+my_list = [0] * 6

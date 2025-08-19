@@ -6,3 +6,12 @@ my_list = [None] * 6
 or
 
 my_list = [0] * 6
+
+__________________________________
+
+taking input from user
+
+num = int(input())
+my_list = [0]*num
+print(my_list)
+

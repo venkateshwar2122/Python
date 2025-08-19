@@ -31,3 +31,20 @@ o/p:
 
 [ ]
 
+__________________________________________________________________
+MINE METHOD:
+
+l = list(map(int,input().split()))
+k = int(input())
+
+flag=0
+
+for i in range(len(l)):
+    if l[i]==k:
+        flag=1
+        print(f"the element {l[i]} index is {i}")
+
+
+if(flag==0):
+    print("element not found")
+

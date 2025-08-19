@@ -15,3 +15,34 @@ num = int(input())
 my_list = [0]*num
 print(my_list)
 
+________________________________
+
+/*IMPORTANT 
+Python, you take input from the user using the input() function.
+
+🐍 Basic Example
+name = input("Enter your name: ")                  /* "name" is STRING */
+print("Hello,", name)
+
+👉 Whatever you type gets stored as a string.    
+-------------------------------------------------
+🔢 Input as Numbers
+
+By default, input() returns a string.
+If you want numbers, you need to convert them:
+
+age = int(input("Enter your age: "))           /*  "age" is INTEGER  */
+print("You will be", age + 1, "next year.")
+------------------------------------------------------------------
+
+For decimal numbers:
+
+pi = float(input("Enter a decimal number: "))     /* "pi" is float  */
+print("You entered:", pi)
+
+
+*/
+/********************************************************************   */
+
+
+
